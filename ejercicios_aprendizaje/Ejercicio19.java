@@ -30,6 +30,7 @@ public class Ejercicio19 {
         sc.close();
     }
     public static void llenarMatriz(int[][] matriz) {
+        System.out.println("Ingrese los elementos de la matriz:");
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
